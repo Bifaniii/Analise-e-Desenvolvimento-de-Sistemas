@@ -1,0 +1,15 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 18pt;
+}
+
+.form {
+    border: 22px double red;
+    width: 400px;
+    padding: 30px;
+}
+
+.box {
+    font-size: 18pt;
+    border: 1px solid black;
+}

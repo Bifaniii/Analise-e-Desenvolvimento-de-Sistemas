@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./javascript/app.js"></script>
+    <title>Aula 6 Ex 7</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Cálculo IMC</legend>
+
+            <label for="sexo">Digite seu sexo (M ou F):</label>
+            <input type="text" name="sexo" id="sexo">
+            <br>
+            <br>
+            <label for="peso">Digite seu peso:</label>
+            <input type="number" inputmode="decimal" step="0.01" name="peso" id="peso">
+            <br>
+            <br>
+            <label for="peso">Digite sua altura em metros:</label>
+            <input type="number" name="altura" id="altura">
+
+            <button type="button" onclick="calcularIMC()">Calcular</button>
+        </fieldset>
+    </form>
+    <div id="resultado"></div>
+</body>
+
+</html>

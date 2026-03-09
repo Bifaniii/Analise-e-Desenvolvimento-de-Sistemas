@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+    <link rel="stylesheet" href="./css/exercicio1.css">
+</head>
+
+<body>
+    <form action="pagina.php" class="form">
+        <fieldset>
+            <legend>
+                <b>Exercício 1:</b>
+            </legend>
+            <p>
+                <b>
+                    Valor 1:
+                </b>
+                <input type="number" class="box" name="valorum">
+            </p>
+            <p>
+                <b>
+                    Valor 2:
+                </b>
+                <input type="number" class="box" name="valordois">
+            </p>
+
+            <p>
+                <b>
+                    Opções:
+                </b>
+            </p>
+
+            <input type="radio" id="soma" name="operacao" value="SOMA">
+            <label for="soma">SOMA</label>
+            <br>
+            <input type="radio" id="subtracao" name="operacao" value="SUBSTRACAO">
+            <label for="subtracao">SUBTRAÇÃO</label>
+            <br>
+            <input type="radio" name="operacao" id="multiplicacao" value="MULTIPLICAÇAO">
+            <label for="multiplicacao">MULTIPLICAÇÃO</label>
+            <br>
+            <input type="radio" name="operacao" id="divisao" value="DIVISAO">
+            <label for="divisao">DIVISÃO</label>
+            <br>
+
+            <p>
+                <b>
+                    Resultado:
+                </b>
+
+            </p>
+            <input type="number" id="resultado" class="box">
+            <br>
+            <br>
+            <button>Calcular</button>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
