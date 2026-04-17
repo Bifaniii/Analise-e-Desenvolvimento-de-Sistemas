@@ -1,0 +1,116 @@
+Nomes:
+Guilherme Bifani de Santana
+Guilherme Soares da Silva
+
+1)
+from collections import deque
+
+F = deque(["livro", "caneta", "borracha"])
+
+ob = F.popleft()
+F.append("clip")
+F.append(F[0])
+F.append(ob)
+
+print("Estado final da fila:", list(F))
+
+2)
+from collections import deque
+
+class Compra:
+    def __init__(self, nomeComprador, nomeProduto, valorProduto):
+        self.nomeComprador = nomeComprador
+        self.nomeProduto = nomeProduto
+        self.valorProduto = valorProduto
+
+    def __str__(self):
+        return f"Comprador: {self.nomeComprador}, Produto: {self.nomeProduto}, Valor: R${self.valorProduto:.2f}"
+
+class AppCompras:
+    def __init__(self):
+        self.pilha = []
+        self.fila = deque()
+
+    def guardar(self, compra):
+        self.pilha.append(compra)
+
+    def cancelar(self):
+        if self.pilha:
+            compra = self.pilha.pop()
+            print("Cancelada:", compra)
+            return compra
+        else:
+            print("Nenhuma compra para cancelar.")
+            return None
+
+    def transferir(self):
+        aux = []
+        while self.pilha:
+            aux.append(self.pilha.pop())
+        while aux:
+            self.fila.append(aux.pop())
+        print("Transferência concluída.")
+
+    def atender(self):
+        if self.fila:
+            compra = self.fila.popleft()
+            print("Atendida:", compra)
+            return compra
+        else:
+            print("Nenhuma compra para atender.")
+            return None
+
+app = AppCompras()
+
+app.guardar(Compra("Guilherme", "Notebook", 3500))
+app.guardar(Compra("Maria", "Celular", 2500))
+app.guardar(Compra("João", "Fone de ouvido", 300))
+
+app.cancelar()
+
+app.transferir()
+
+app.atender()
+
+3)
+from collections import deque
+
+class Filme:
+    def __init__(self, titulo, diretor, genero, pais, ano):
+        self.titulo = titulo
+        self.diretor = diretor
+        self.genero = genero
+        self.pais = pais
+        self.ano = ano
+
+    def __str__(self):
+        return f"{self.titulo} ({self.ano}) - {self.genero}, Dir: {self.diretor}, País: {self.pais}"
+
+class FilaFilmes:
+    def __init__(self):
+        self.fila = deque()
+
+    def inserir(self, filme):
+        self.fila.append(filme)
+
+    def eliminar_ate_acao(self):
+        while self.fila:
+            filme = self.fila[0]  # olha o primeiro
+            if filme.genero.lower() == "ação":
+                print("Primeiro filme de ação encontrado:", filme)
+                return filme
+            else:
+                removido = self.fila.popleft()
+                print("Removido:", removido)
+        print("Fila vazia, nenhum filme de ação encontrado.")
+        return None
+    
+fila = FilaFilmes()
+
+fila.inserir(Filme("Matrix", "Wachowski", "Ação", "EUA", 1999))
+fila.inserir(Filme("Titanic", "James Cameron", "Romance", "EUA", 1997))
+fila.inserir(Filme("Vingadores", "Joss Whedon", "Ação", "EUA", 2012))
+fila.inserir(Filme("Parasita", "Bong Joon-ho", "Drama", "Coreia do Sul", 2019))
+fila.inserir(Filme("Mad Max: Fury Road", "George Miller", "Ação", "Austrália", 2015))
+
+fila.eliminar_ate_acao()
