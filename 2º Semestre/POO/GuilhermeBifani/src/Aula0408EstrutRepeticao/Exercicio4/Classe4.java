@@ -1,4 +1,4 @@
-package Aula0408.Exercicio4;
+package Aula0408EstrutRepeticao.Exercicio4;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Aula0318.POO.ExercicioDois;
+package Aula0318POO.ExercicioDois;
 
 import java.util.Scanner;
 

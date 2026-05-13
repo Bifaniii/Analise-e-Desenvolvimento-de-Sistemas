@@ -1,4 +1,4 @@
-package Aula0318.POO.ExercicioNove;
+package Aula0318POO.ExercicioNove;
 
 public class Media {
     private double n1;

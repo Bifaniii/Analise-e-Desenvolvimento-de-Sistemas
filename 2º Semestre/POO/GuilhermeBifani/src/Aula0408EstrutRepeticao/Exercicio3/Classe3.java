@@ -1,4 +1,4 @@
-package Aula0408.Exercicio3;
+package Aula0408EstrutRepeticao.Exercicio3;
 
 public class Classe3 {
     private int numero;

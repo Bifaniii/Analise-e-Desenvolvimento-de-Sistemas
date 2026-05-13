@@ -1,4 +1,4 @@
-package Aula0318.POO.ExercicioDoze;
+package Aula0318POO.ExercicioDoze;
 
 public class Doze {
 

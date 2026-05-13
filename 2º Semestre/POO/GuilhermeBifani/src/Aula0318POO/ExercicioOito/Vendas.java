@@ -1,4 +1,4 @@
-package Aula0318.POO.ExercicioOito;
+package Aula0318POO.ExercicioOito;
 
 public class Vendas {
 

@@ -1,4 +1,4 @@
-package Aula0318.POO.ExercicioUm;
+package Aula0318POO.ExercicioUm;
 
 public class Area {
     private int ladoA;

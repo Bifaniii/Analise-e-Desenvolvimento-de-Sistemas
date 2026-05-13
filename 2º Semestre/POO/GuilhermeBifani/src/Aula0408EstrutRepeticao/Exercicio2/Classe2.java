@@ -1,4 +1,4 @@
-package Aula0408.Exercicio2;
+package Aula0408EstrutRepeticao.Exercicio2;
 
 public class Classe2 {
 

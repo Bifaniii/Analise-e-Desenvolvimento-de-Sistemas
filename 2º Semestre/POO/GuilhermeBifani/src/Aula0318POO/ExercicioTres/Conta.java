@@ -1,4 +1,4 @@
-package Aula0318.POO.ExercicioTres;
+package Aula0318POO.ExercicioTres;
 
 public class Conta {
     private double valor;

@@ -1,4 +1,4 @@
-package Aula0318.POO.ExercicioCinco;
+package Aula0318POO.ExercicioCinco;
 
 public class Galinha {
 

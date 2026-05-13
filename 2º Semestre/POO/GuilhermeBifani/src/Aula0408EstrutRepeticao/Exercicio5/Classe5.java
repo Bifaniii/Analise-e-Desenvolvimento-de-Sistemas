@@ -1,4 +1,4 @@
-package Aula0408.Exercicio5;
+package Aula0408EstrutRepeticao.Exercicio5;
 
 public class Classe5 {
     private int somaIdades;
