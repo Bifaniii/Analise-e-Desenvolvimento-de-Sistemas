@@ -8,7 +8,7 @@ Este semestre foi marcado pela transição da teoria pura para a prática: além
 
 | Matéria | Foco principal |
 |---|---|
-| [Análise e Projeto de Sistemas I](./Analise%20e%20Projeto%20de%20Sistemas%20I) | Modelagem UML |
+| [Análise e Projeto de Sistemas I](https://github.com/Bifaniii/Analise-e-Desenvolvimento-de-Sistemas/tree/main/2%C2%BA%20Semestre/An%C3%A1lise%20e%20Projeto%20de%20Sistemas%20I) | Modelagem UML |
 | [Programação Orientada a Objetos (POO)](./POO) | Java e fundamentos de OO |
 | [Estrutura de Dados](./Estrutura%20de%20Dados) | Pilhas, filas e FIFO |
 | [Tópicos Avançados de Informática](./Topicos%20Avancados%20de%20Informatica) | Sistema full stack em grupo (Java + Spring Boot + IA) |
