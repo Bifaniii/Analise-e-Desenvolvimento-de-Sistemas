@@ -9,10 +9,10 @@ Este semestre foi marcado pela transição da teoria pura para a prática: além
 | Matéria | Foco principal |
 |---|---|
 | [Análise e Projeto de Sistemas I](https://github.com/Bifaniii/Analise-e-Desenvolvimento-de-Sistemas/tree/main/2%C2%BA%20Semestre/An%C3%A1lise%20e%20Projeto%20de%20Sistemas%20I) | Modelagem UML |
-| [Programação Orientada a Objetos (POO)](./POO) | Java e fundamentos de OO |
-| [Estrutura de Dados](./Estrutura%20de%20Dados) | Pilhas, filas e FIFO |
-| [Tópicos Avançados de Informática](./Topicos%20Avancados%20de%20Informatica) | Sistema full stack em grupo (Java + Spring Boot + IA) |
-| [Itinerário](./Itinerario) | Projeto social — ensino de Python para uma ONG |
+| [Programação Orientada a Objetos (POO)](https://github.com/Bifaniii/Analise-e-Desenvolvimento-de-Sistemas/tree/main/2%C2%BA%20Semestre/POO) | Java e fundamentos de OO |
+| [Estrutura de Dados](https://github.com/Bifaniii/Analise-e-Desenvolvimento-de-Sistemas/tree/main/2%C2%BA%20Semestre/Estrutura%20de%20Dados) | Pilhas, filas e FIFO |
+| [Tópicos Avançados de Informática](https://github.com/Bifaniii/Analise-e-Desenvolvimento-de-Sistemas/tree/main/2%C2%BA%20Semestre/T%C3%B3picos%20Avan%C3%A7ados%20de%20Inform%C3%A1tica%20I) | Sistema full stack em grupo (Java + Spring Boot + IA) |
+| [Itinerário](https://github.com/Bifaniii/Analise-e-Desenvolvimento-de-Sistemas/tree/main/2%C2%BA%20Semestre/Itiner%C3%A1rio) | Projeto social — ensino de Python para uma ONG |
 
 ---
 

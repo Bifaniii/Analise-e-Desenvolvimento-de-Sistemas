@@ -18,4 +18,4 @@ Reforço da importância de planejar e documentar um sistema antes de sair escre
 
 ---
 
-[⬅ Voltar para 2º Semestre](../)
+[⬅ Voltar para 2º Semestre](https://github.com/Bifaniii/Analise-e-Desenvolvimento-de-Sistemas/tree/main/2%C2%BA%20Semestre)

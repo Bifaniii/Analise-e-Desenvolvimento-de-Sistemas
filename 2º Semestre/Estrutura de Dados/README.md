@@ -17,4 +17,4 @@ Boa parte do aprofundamento nesses conceitos foi feita por conta própria, compl
 
 ---
 
-[⬅ Voltar para 2º Semestre](../)
+[⬅ Voltar para 2º Semestre](https://github.com/Bifaniii/Analise-e-Desenvolvimento-de-Sistemas/tree/main/2%C2%BA%20Semestre)
