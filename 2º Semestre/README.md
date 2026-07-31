@@ -22,5 +22,6 @@ O maior aprendizado do período veio de **Tópicos Avançados de Informática**,
 
 ---
 
-**Guilherme Bifani**
-Estudante de Análise e Desenvolvimento de Sistemas
+[⬅ Voltar para o início](https://github.com/Bifaniii/Analise-e-Desenvolvimento-de-Sistemas)
+
+🧙🏼‍♂️ Desenvolvido por Guilherme Bifani
